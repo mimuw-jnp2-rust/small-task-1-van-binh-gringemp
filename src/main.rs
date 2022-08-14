@@ -114,7 +114,7 @@ struct VanBinh {
 
 impl VanBinh {
     pub fn new() -> VanBinh {
-        return VanBinh{orders_count : 0, customers : Vec::new()}
+        return VanBinh{orders_count : 1, customers : Vec::new()}
     }
 
     fn add_customer(&mut self, name: String, favorite_order: Order) {
